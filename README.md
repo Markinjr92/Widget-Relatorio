@@ -1,6 +1,6 @@
-# Relatório Comercial
+# Relatório
 
-Este projeto consiste em um widget que exibe um relatório comercial. O relatório inclui filtros dinâmicos, paginação e exportação para Excel.
+Este projeto consiste em um widget do Fluig que exibe um relatório. O relatório inclui filtros dinâmicos, paginação e exportação para Excel.
 
 ## Estrutura de Arquivos
 
