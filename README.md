@@ -1,15 +1,16 @@
-# Relatório
+# Relatório Comercial
 
-Este projeto consiste em um widget do Fluig que exibe um relatório. O relatório inclui filtros dinâmicos, paginação e exportação para Excel.
+Este projeto é um widget Fluig para exibição de um relatório comercial, com funcionalidades de filtro, paginação e exportação para Excel.
 
-## Estrutura de Arquivos
+## Estrutura do Projeto
 
-- `view.ftl`: Estrutura HTML do widget.
-- `relatorio.js`: Script principal que inicializa o widget e configura seus componentes.
-- `functions.js`: Funções auxiliares para carregar dados, configurar a tabela e aplicar filtros.
-- `styles.css`: Estilos customizados para o widget (se necessário).
-- `pagination.js e pagination.min.js`: Código de funções para paginação da tabela
-  
+- `view.ftl`: Arquivo FreeMarker Template contendo a estrutura HTML do widget.
+- `relat_comercial123.js`: Script principal do widget que gerencia a lógica de negócios e interações.
+- `datatable.js`: Script para configuração e manipulação da tabela de dados.
+- `ajax.js`: Script para carregamento de dados via AJAX.
+- `filter.js`: Script para configuração e aplicação de filtros dinâmicos.
+- `pagination.js` e `pagination.min.js`: Scripts para paginação da tabela.
+
 ## Instalação
 
 1. Clone este repositório.
@@ -25,6 +26,8 @@ Este projeto consiste em um widget do Fluig que exibe um relatório. O relatóri
 
 ## Dependências
 
-- [DataTables](https://datatables.net/)
-- [XLSX.js](https://github.com/SheetJS/sheetjs)
+Este projeto depende das seguintes bibliotecas externas:
 
+- [Fluig Style Guide](https://styleguide.fluig.com/)
+- [XLSX](https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js)
+- jQuery
