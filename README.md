@@ -8,7 +8,8 @@ Este projeto consiste em um widget que exibe um relatório comercial. O relatór
 - `relatorio.js`: Script principal que inicializa o widget e configura seus componentes.
 - `functions.js`: Funções auxiliares para carregar dados, configurar a tabela e aplicar filtros.
 - `styles.css`: Estilos customizados para o widget (se necessário).
-
+- `pagination.js e pagination.min.js`: Código de funções para paginação da tabela
+- 
 ## Instalação
 
 1. Clone este repositório.
